@@ -9,7 +9,6 @@ D:\repositorio\C#\writeLogBot\obj\Debug\writeLogBot.pdb
 D:\repositorio\C#\automationBot\writeLogBot\bin\Debug\writeLogBot.exe.config
 D:\repositorio\C#\automationBot\writeLogBot\bin\Debug\writeLogBot.exe
 D:\repositorio\C#\automationBot\writeLogBot\bin\Debug\writeLogBot.pdb
-D:\repositorio\C#\automationBot\writeLogBot\obj\Debug\writeLogBot.csproj.AssemblyReference.cache
 D:\repositorio\C#\automationBot\writeLogBot\obj\Debug\writeLogBot.csproj.SuggestedBindingRedirects.cache
 D:\repositorio\C#\automationBot\writeLogBot\obj\Debug\writeLogBot.csproj.CoreCompileInputs.cache
 D:\repositorio\C#\automationBot\writeLogBot\obj\Debug\writeLogBot.exe
