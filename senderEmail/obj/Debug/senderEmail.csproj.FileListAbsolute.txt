@@ -1,0 +1,7 @@
+D:\repositorio\C#\senderEmail\bin\Debug\senderEmail.exe.config
+D:\repositorio\C#\senderEmail\bin\Debug\senderEmail.exe
+D:\repositorio\C#\senderEmail\bin\Debug\senderEmail.pdb
+D:\repositorio\C#\senderEmail\obj\Debug\senderEmail.csproj.SuggestedBindingRedirects.cache
+D:\repositorio\C#\senderEmail\obj\Debug\senderEmail.csproj.CoreCompileInputs.cache
+D:\repositorio\C#\senderEmail\obj\Debug\senderEmail.exe
+D:\repositorio\C#\senderEmail\obj\Debug\senderEmail.pdb
