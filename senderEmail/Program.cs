@@ -11,12 +11,13 @@ namespace senderEmail
             {
                 Console.WriteLine("Arguemtos invalidos");
                 return;
-            } 
-                string mailDirection = args[0];
-                string mailSubject= args[1];
-                string mailContent= args[2];
+            }
 
-                Console.WriteLine(mailDirection + " " + mailSubject);
+            string mailDirection = args[0];
+            string mailSubject= args[1];
+            string mailContent= args[2];
+
+            Console.WriteLine(mailDirection + " " + mailSubject);
 
             Console.WriteLine("Este es un programa que envia correos");
             
