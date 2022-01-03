@@ -1,0 +1,8 @@
+D:\repositorio\C#\uploadLogFile\bin\Debug\uploadLogFile.exe.config
+D:\repositorio\C#\uploadLogFile\bin\Debug\uploadLogFile.exe
+D:\repositorio\C#\uploadLogFile\bin\Debug\uploadLogFile.pdb
+D:\repositorio\C#\uploadLogFile\obj\Debug\uploadLogFile.csproj.AssemblyReference.cache
+D:\repositorio\C#\uploadLogFile\obj\Debug\uploadLogFile.csproj.SuggestedBindingRedirects.cache
+D:\repositorio\C#\uploadLogFile\obj\Debug\uploadLogFile.csproj.CoreCompileInputs.cache
+D:\repositorio\C#\uploadLogFile\obj\Debug\uploadLogFile.exe
+D:\repositorio\C#\uploadLogFile\obj\Debug\uploadLogFile.pdb
