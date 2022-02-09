@@ -27,6 +27,7 @@ namespace encriptExcel
         {
             //wb.Protect(password);
             wb.Password = password;
+            Console.WriteLine("Se protegio el archivo");
             wb.Save();
 
         }

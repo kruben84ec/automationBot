@@ -26,7 +26,7 @@ namespace encriptExcel
                 init_program.Close();
             }else
             {
-                Console.WriteLine("Los argumientos no son validos");
+                Console.WriteLine("Los argumentos no son validos");
             }
 
         }
