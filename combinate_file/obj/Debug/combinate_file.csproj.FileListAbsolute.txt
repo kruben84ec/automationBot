@@ -1,0 +1,9 @@
+D:\repositorio\C#\automationBot\combinate_file\bin\Debug\combinate_file.exe.config
+D:\repositorio\C#\automationBot\combinate_file\bin\Debug\combinate_file.exe
+D:\repositorio\C#\automationBot\combinate_file\bin\Debug\combinate_file.pdb
+D:\repositorio\C#\automationBot\combinate_file\obj\Debug\combinate_file.csproj.AssemblyReference.cache
+D:\repositorio\C#\automationBot\combinate_file\obj\Debug\combinate_file.csproj.SuggestedBindingRedirects.cache
+D:\repositorio\C#\automationBot\combinate_file\obj\Debug\combinate_file.csproj.ResolveComReference.cache
+D:\repositorio\C#\automationBot\combinate_file\obj\Debug\combinate_file.csproj.CoreCompileInputs.cache
+D:\repositorio\C#\automationBot\combinate_file\obj\Debug\combinate_file.exe
+D:\repositorio\C#\automationBot\combinate_file\obj\Debug\combinate_file.pdb

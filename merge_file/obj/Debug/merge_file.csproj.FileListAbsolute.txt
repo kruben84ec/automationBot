@@ -1,0 +1,9 @@
+D:\repositorio\C#\automationBot\merge_file\bin\Debug\merge_file.exe.config
+D:\repositorio\C#\automationBot\merge_file\bin\Debug\merge_file.exe
+D:\repositorio\C#\automationBot\merge_file\bin\Debug\merge_file.pdb
+D:\repositorio\C#\automationBot\merge_file\obj\Debug\merge_file.csproj.AssemblyReference.cache
+D:\repositorio\C#\automationBot\merge_file\obj\Debug\merge_file.csproj.SuggestedBindingRedirects.cache
+D:\repositorio\C#\automationBot\merge_file\obj\Debug\merge_file.csproj.ResolveComReference.cache
+D:\repositorio\C#\automationBot\merge_file\obj\Debug\merge_file.csproj.CoreCompileInputs.cache
+D:\repositorio\C#\automationBot\merge_file\obj\Debug\merge_file.exe
+D:\repositorio\C#\automationBot\merge_file\obj\Debug\merge_file.pdb

@@ -1,0 +1,83 @@
+2022-03-09 12:32:39;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+When connecting to an SMTP service, port 25 is typically reserved for plain-text connections. If
+you intended to connect to SMTP on the SSL port, try connecting to port 465 instead. Otherwise,
+if you intended to use STARTTLS, make sure to use the following code:
+
+client.Connect ("10.100.176.37", 25, SecureSocketOptions.StartTls);
+;
+2022-03-09 12:34:13;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+When connecting to an SMTP service, port 25 is typically reserved for plain-text connections. If
+you intended to connect to SMTP on the SSL port, try connecting to port 465 instead. Otherwise,
+if you intended to use STARTTLS, make sure to use the following code:
+
+client.Connect ("10.100.176.37", 25, SecureSocketOptions.StartTls);
+;
+2022-03-09 12:34:28;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;
+2022-03-09 12:36:37;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+When connecting to an SMTP service, port 25 is typically reserved for plain-text connections. If
+you intended to connect to SMTP on the SSL port, try connecting to port 465 instead. Otherwise,
+if you intended to use STARTTLS, make sure to use the following code:
+
+client.Connect ("10.100.176.37", 25, SecureSocketOptions.StartTls);
+;
+2022-03-09 12:38:47;Mensaje error:Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 10.100.176.37:465;
+2022-03-09 12:42:52;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+When connecting to an SMTP service, port 25 is typically reserved for plain-text connections. If
+you intended to connect to SMTP on the SSL port, try connecting to port 465 instead. Otherwise,
+if you intended to use STARTTLS, make sure to use the following code:
+
+client.Connect ("10.100.176.37", 25, SecureSocketOptions.StartTls);
+;
+2022-03-09 12:44:20;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;
+2022-03-09 12:46:55;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;
+2022-03-09 12:50:16;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;
+2022-03-09 12:50:48;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;
+2022-03-09 12:52:44;Mensaje error:535: 5.7.3 Authentication unsuccessful;
+2022-03-09 12:54:57;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;
+2022-03-09 01:00:38;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;
+2022-03-09 01:05:51;Mensaje error:Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 10.100.176.37:465;
+2022-03-09 01:13:33;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;
+2022-03-09 03:15:01;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;
+2022-03-09 03:16:25;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+When connecting to an SMTP service, port 25 is typically reserved for plain-text connections. If
+you intended to connect to SMTP on the SSL port, try connecting to port 465 instead. Otherwise,
+if you intended to use STARTTLS, make sure to use the following code:
+
+client.Connect ("10.100.176.37", 25, SecureSocketOptions.StartTls);
+;
+2022-03-09 03:17:27;Mensaje error:An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+;

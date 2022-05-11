@@ -6,6 +6,7 @@ namespace validarDirectorios
 {
     class ServiceDirectory
     {
+        //"E:\AsistenteLogScoreFraude\config\ejecucion.xlsx" "E:\LogScoreMonitoreo"
 
         public void createDirectory(string path)
         {
@@ -62,10 +63,21 @@ namespace validarDirectorios
 
         }
 
+        public void updateStausBrandMacro()
+        {
+            String pathConfigMacro = @"E:\AsistenteLogScoreFraude\config\configuracion.xlsx";
+            //La hoja marcas es la 1
+            ServiceExcel fileConfig = new ServiceExcel(pathConfigMacro, 1);
+            fileConfig.updateStatus("deactivate");
+  
+
+        }
+
         public void createDirectoryBrand(string pathConfig, string pathDestiny)
         {
             ServiceExcel fileConfig = new ServiceExcel(pathConfig, 1);
             var brandConfigs = fileConfig.brandsConfig(3);
+            this.updateStausBrandMacro();
             
             foreach(string brand in brandConfigs)
             {

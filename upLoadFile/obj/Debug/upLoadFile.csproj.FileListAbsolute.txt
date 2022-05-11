@@ -1,0 +1,8 @@
+D:\repositorio\C#\automationBot\upLoadFile\bin\Debug\upLoadFile.exe.config
+D:\repositorio\C#\automationBot\upLoadFile\bin\Debug\upLoadFile.exe
+D:\repositorio\C#\automationBot\upLoadFile\bin\Debug\upLoadFile.pdb
+D:\repositorio\C#\automationBot\upLoadFile\obj\Debug\upLoadFile.csproj.AssemblyReference.cache
+D:\repositorio\C#\automationBot\upLoadFile\obj\Debug\upLoadFile.csproj.SuggestedBindingRedirects.cache
+D:\repositorio\C#\automationBot\upLoadFile\obj\Debug\upLoadFile.csproj.CoreCompileInputs.cache
+D:\repositorio\C#\automationBot\upLoadFile\obj\Debug\upLoadFile.exe
+D:\repositorio\C#\automationBot\upLoadFile\obj\Debug\upLoadFile.pdb

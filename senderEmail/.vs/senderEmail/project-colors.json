@@ -5,7 +5,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Archivos varios",
       "ColorIndex": -1
+    },
+    "a7cba8e6-3d9f-4d32-9942-acec34361282": {
+      "ProjectGuid": "a7cba8e6-3d9f-4d32-9942-acec34361282",
+      "DisplayName": "senderEmail",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 1
 }

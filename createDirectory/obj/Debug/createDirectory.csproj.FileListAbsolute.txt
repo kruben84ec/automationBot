@@ -1,0 +1,8 @@
+D:\repositorio\C#\automationBot\createDirectory\bin\Debug\createDirectory.exe.config
+D:\repositorio\C#\automationBot\createDirectory\bin\Debug\createDirectory.exe
+D:\repositorio\C#\automationBot\createDirectory\bin\Debug\createDirectory.pdb
+D:\repositorio\C#\automationBot\createDirectory\obj\Debug\createDirectory.csproj.AssemblyReference.cache
+D:\repositorio\C#\automationBot\createDirectory\obj\Debug\createDirectory.csproj.SuggestedBindingRedirects.cache
+D:\repositorio\C#\automationBot\createDirectory\obj\Debug\createDirectory.csproj.CoreCompileInputs.cache
+D:\repositorio\C#\automationBot\createDirectory\obj\Debug\createDirectory.exe
+D:\repositorio\C#\automationBot\createDirectory\obj\Debug\createDirectory.pdb

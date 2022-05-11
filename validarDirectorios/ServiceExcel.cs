@@ -26,28 +26,46 @@ namespace validarDirectorios
 
         public void Close()
         {
-            wb.Close();
+            excel.Quit();
         }
 
         public Array brandsConfig(int columna)
         {
             int rows = excelRange.Rows.Count;
-       
             List<string> configBrandList = new List<string>();
-           
-
             String dataConfig = "";
-
             for (int brand = 2; brand <= rows; brand++)
             {
                 dataConfig = excelRange.Cells[brand, columna].Value2.ToString();
                 configBrandList.Add(dataConfig);
             }
-            Close();
 
+            Close();
             string[] brands = configBrandList.ToArray();
             return brands;
+        }
 
+        public void updateStatus(String status)
+        {
+            String pathConfigMacro = @"E:\AsistenteLogScoreFraude\config\configuracion.xlsx";
+            ServiceExcel fileConfig = new ServiceExcel(pathConfigMacro, 1);
+            int rows = excelRange.Rows.Count;
+            List<string> configBrandList = new List<string>();
+            String dataConfig = "";
+            int columna =1;
+            for (int brand = 2; brand <= rows; brand++)
+            {
+                dataConfig = excelRange.Cells[brand, columna].Value2.ToString();
+                excelRange.Cells[brand, 2] = status;
+
+            }
+            excel.DisplayAlerts = false;
+            wb.SaveAs(Filename: pathConfigMacro, AccessMode: XlSaveAsAccessMode.xlNoChange);
+            Close();
+            //excel.DisplayAlerts = true;
+            excel.Quit();
+            //string[] brands = configBrandList.ToArray();
+            //return brands;
         }
 
        

@@ -11,7 +11,7 @@ namespace validarDirectorios
         static void Main(string[] args)
         {
             ServiceDirectory directory = new ServiceDirectory();
-            
+            //"E:\AsistenteLogScoreFraude\config\ejecucion.xlsx" "E:\LogScoreMonitoreo"
             
 
             if (args.Length > 0)

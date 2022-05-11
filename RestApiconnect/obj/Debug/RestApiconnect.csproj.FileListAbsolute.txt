@@ -1,0 +1,8 @@
+D:\repositorio\C#\automationBot\RestApiconnect\bin\Debug\RestApiconnect.exe.config
+D:\repositorio\C#\automationBot\RestApiconnect\bin\Debug\RestApiconnect.exe
+D:\repositorio\C#\automationBot\RestApiconnect\bin\Debug\RestApiconnect.pdb
+D:\repositorio\C#\automationBot\RestApiconnect\obj\Debug\RestApiconnect.csproj.AssemblyReference.cache
+D:\repositorio\C#\automationBot\RestApiconnect\obj\Debug\RestApiconnect.csproj.SuggestedBindingRedirects.cache
+D:\repositorio\C#\automationBot\RestApiconnect\obj\Debug\RestApiconnect.csproj.CoreCompileInputs.cache
+D:\repositorio\C#\automationBot\RestApiconnect\obj\Debug\RestApiconnect.exe
+D:\repositorio\C#\automationBot\RestApiconnect\obj\Debug\RestApiconnect.pdb

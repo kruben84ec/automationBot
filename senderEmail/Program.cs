@@ -7,6 +7,11 @@ namespace senderEmail
     {
         static void Main(string[] args)
         {
+
+            ServiceSmtp senderEmail = new ServiceSmtp();
+
+            senderEmail.senderEmail();
+            /*
             if(args.Length == 0)
             {
                 Console.WriteLine("Arguemtos invalidos");
@@ -33,7 +38,7 @@ namespace senderEmail
                 }
             }else { Console.WriteLine("Los valores no puden ser nulos");}
             
-            
+            */
 
         }
     }
