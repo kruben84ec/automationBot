@@ -50,6 +50,7 @@ namespace combinate_file
             String pathReportCx91 = "";
             String pathReportYobsidim = "";
             String codeBrand = "";
+
             
 
             for (int codeBrandItem = 1; codeBrandItem < codeBrandList.Count; codeBrandItem++)
@@ -61,7 +62,6 @@ namespace combinate_file
                 this.accountBoletinadas = getDataFile(pathReportCx91, this.accountBoletinadas);
                 this.accountYobsidiam = getDataFile(pathReportYobsidim, this.accountYobsidiam);
 
-                Console.WriteLine(codeBrand+":"+this.accountYobsidiam.Count);
 
                 if (File.Exists(pathReportCx91))
                 {
@@ -72,11 +72,6 @@ namespace combinate_file
                 {
                     File.Delete(pathReportYobsidim);
                 }
-
-
-
-
-
             }
 
         }

@@ -37,8 +37,8 @@ namespace createDirectory
         public void createDirectoryLog(string pathDestiny)
         {
             string pathDestinyLog = "";
-            string pathLog = pathDestiny+ @"\insumos\MacroCX91.xlsm";
-
+            string pathLog = pathDestiny+ @"insumos\MacroCX91.xlsm";
+            string pathReport = pathDestiny + @"insumos\reporte_.xlsx";
             var dateTimeNow = this.getDate();
 
             string yearFolder = (string)dateTimeNow["year"];
@@ -58,6 +58,18 @@ namespace createDirectory
             {
                 File.Delete(pathDestinyLog + @"\MacroCX91.xlsm");
                 File.Copy(pathLog, pathDestinyLog + @"\MacroCX91.xlsm");
+                string pathReportExist = pathDestinyLog + @"\reporte_.xlsx";
+
+               
+                
+                bool isFoundFile = File.Exists(pathReportExist);
+                Console.WriteLine(pathReport + ":"+isFoundFile.ToString());
+                if (!isFoundFile)
+                {
+                    File.Copy(pathReport, pathReportExist);
+                    Console.WriteLine("Crear");   
+                }
+                
                 Console.WriteLine("Verificando el archivo ");
             }
             catch (Exception ex)

@@ -12,7 +12,10 @@ namespace createDirectory
         {
             if (args.Length > 0)
             {
-                Console.WriteLine("Argumentos");
+                string pathDesteny = args[0];
+                ServiceDirectory createDirectory = new ServiceDirectory();
+       
+                createDirectory.createDirectoryLog(pathDesteny);
             }
             else
             {

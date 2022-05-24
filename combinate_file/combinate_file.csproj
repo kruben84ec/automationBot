@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="report\ReportController.cs" />
     <Compile Include="ServiceExcel.cs" />
+    <Compile Include="ServiceManagerTime.cs" />
     <Compile Include="ServicesTxt.cs" />
   </ItemGroup>
   <ItemGroup>
