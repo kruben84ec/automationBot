@@ -7,9 +7,10 @@ namespace createDirectory
 {
     class ServiceDirectory
     {
+        private const string macroCanceladas = "MacroCX91.xlsm";
+        private const string reporteCanceladas = "reporte_.xlsx";
+
         public void createDirectory(string path)
-
-
         {
             if (!Directory.Exists(path))
             {
@@ -36,9 +37,10 @@ namespace createDirectory
 
         public void createDirectoryLog(string pathDestiny)
         {
+
             string pathDestinyLog = "";
-            string pathLog = pathDestiny+ @"insumos\MacroCX91.xlsm";
-            string pathReport = pathDestiny + @"insumos\reporte_.xlsx";
+            string pathLog = pathDestiny+ @"insumos\"+ macroCanceladas;
+            string pathReport = pathDestiny + @"insumos\"+ reporteCanceladas;
             var dateTimeNow = this.getDate();
 
             string yearFolder = (string)dateTimeNow["year"];
@@ -56,9 +58,15 @@ namespace createDirectory
 
             try
             {
-                File.Delete(pathDestinyLog + @"\MacroCX91.xlsm");
-                File.Copy(pathLog, pathDestinyLog + @"\MacroCX91.xlsm");
-                string pathReportExist = pathDestinyLog + @"\reporte_.xlsx";
+
+                var userUploadsDir = pathDestinyLog + @"\"+macroCanceladas;
+                var fullDirPath = Path.GetFullPath(userUploadsDir);
+                Console.WriteLine(fullDirPath.ToString());
+
+
+                File.Delete(pathDestinyLog + @"\"+macroCanceladas);
+                File.Copy(pathLog, pathDestinyLog + @"\"+macroCanceladas);
+                string pathReportExist = pathDestinyLog + @"\"+reporteCanceladas;
 
                
                 
