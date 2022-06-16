@@ -16,9 +16,6 @@ namespace createDirectory
             {
                 Console.WriteLine("Creando el directorio: {0}", path);
                 DirectoryInfo directoryCreate = Directory.CreateDirectory(path);
-            }else
-            {
-                Console.WriteLine("Ya existe: {0}", path);
             }
         }
 
@@ -60,19 +57,32 @@ namespace createDirectory
             {
 
                 var userUploadsDir = pathDestinyLog + @"\"+macroCanceladas;
+                var fileToDelete = pathDestinyLog;
                 var fullDirPath = Path.GetFullPath(userUploadsDir);
-                Console.WriteLine(fullDirPath.ToString());
+                var fullFilePath = Path.GetFullPath(fileToDelete);
+                 
+                Console.WriteLine(fullDirPath);
+                Console.WriteLine(fullFilePath);
 
 
-                File.Delete(pathDestinyLog + @"\"+macroCanceladas);
-                File.Copy(pathLog, pathDestinyLog + @"\"+macroCanceladas);
-                string pathReportExist = pathDestinyLog + @"\"+reporteCanceladas;
+                /*
+                if (!fullFilePath.StartsWith(fullDirPath, StringComparison.Ordinal))
+                {
+                    File.Delete(fullFilePath);
+                    File.Copy(pathLog, fullDirPath);
+                }
+                else
+                {
+                    Console.WriteLine(fullFilePath.StartsWith(fullDirPath, StringComparison.Ordinal).ToString());
+                }
+                */
+                var pathReportExist = pathDestinyLog + @"\"+reporteCanceladas;
+                var fullDirPathReport = Path.GetFullPath(pathReportExist);
+                var fullFileCopyReport = Path.GetFullPath(pathReportExist);
 
-               
-                
-                bool isFoundFile = File.Exists(pathReportExist);
-                Console.WriteLine(pathReport + ":"+isFoundFile.ToString());
-                if (!isFoundFile)
+                var isFoundFile = File.Exists(fullDirPathReport);
+
+                if (!isFoundFile && !fullFilePath.StartsWith(fullDirPath, StringComparison.Ordinal))
                 {
                     File.Copy(pathReport, pathReportExist);
                     Console.WriteLine("Crear");   
